@@ -1,5 +1,6 @@
  
  Сборка проекта на реакт для хостинга
+ Сначала попробовать просто прописать homePage 
  npm run build
  npm install -g serve
   serve -s build
