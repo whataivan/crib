@@ -7,7 +7,6 @@
   
   <IfModule mod_rewrite.c>
 
-
   RewriteEngine On
   RewriteBase /
   RewriteRule ^index\.html$ - [L]
@@ -21,7 +20,19 @@
  
  
  
- 
+ @media screen and (min-width: 320px) and (max-width: 767px) {
+
+}
+
+/* //----------------------------------------------------------------------TABLET----------------------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+}
+/* "//-------------------------------------------------------DESKTOP----------------------------------------------------------------- */
+@media (min-width: 1200px) {
+
+}
+
  
  
  
